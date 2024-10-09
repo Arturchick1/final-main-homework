@@ -13,7 +13,10 @@ jobs:
       - name: Vet
         run: |
           go vet ./...
+<<<<<<< Updated upstream
           
+=======
+>>>>>>> Stashed changes
   deploy:
     name: Push Docker image to Docker Hub
     runs-on: ubuntu-latest
